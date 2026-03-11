@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Partículas 3D por Gestos - Control Orbital</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Post Processing -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    
+    <!-- MediaPipe Hands -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js"></script>
+    
+</head>
+<body>
+     <div id="start-screen">
+        <h1 class="title">PARTICLE FLOW</h1>
+        <p class="subtitle">Arte Digital Interactivo con Hand Tracking</p>
+        <button id="start-btn">Iniciar Experiencia</button>
+    </div>
+    
+    <div class="loading" id="loading">Cargando modelos...</div>
+    
+    <div id="canvas-container"></div>
+    <video id="video-input" playsinline></video>
+    
+    <div id="ui-overlay">
+        <div class="gesture-indicator" id="gesture-display">
+            <span class="gesture-icon">✋</span>
+            <span id="gesture-text">Esperando manos...</span>
+        </div>
+    </div>
+    
+    <div class="controls-info">
+        <div class="control-item">
+            <div class="control-icon"></div>
+            <span></span>
+        </div>
+        <div class="control-item">
+            <div class="control-icon"></div>
+            <span></span>
+        </div>
+        <div class="control-item">
+            <div class="control-icon"></div>
+            <span></span>
+        </div>
+        <div class="control-item">
+            <div class="control-icon"></div>
+            <span></span>
+        </div>
+    </div>
+    
+    <div class="stats" id="stats">
+        FPS: <span id="fps">60</span> | Partículas: <span id="particle-count">0</span>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
