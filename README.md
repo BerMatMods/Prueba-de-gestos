@@ -45,15 +45,6 @@ Este proyecto utiliza visión por computadora para detectar la posición de la m
 
 🌌 REPOSITORIOS
 
-🧠 Proyecto original
-
-🔗 https://github.com/BangAtacck/Spatial-Hand-Particles
-
-
----
-
-⚡ Proyecto de pruebas
-
 🔗 https://github.com/BerMatMods/Prueba-de-gestos
 
 
