@@ -1,85 +1,69 @@
-Aquí tienes un README ULTRA decorado para GitHub, con badges, estilo visual, alertas, letras grandes, emojis, secciones profesionales y enlaces para clonar.
-Está listo para copiar y pegar en tu README.md de tu repositorio.
 
 
----
+<div align="center">
 
-🚨✨ SPATIAL HAND PARTICLES – CONTROL DE EFECTOS CON GESTOS ✋
+# ✋✨ 𝐒𝐏𝐀𝐓𝐈𝐀𝐋 𝐇𝐀𝐍𝐃 𝐏𝐀𝐑𝐓𝐈𝐂𝐋𝐄𝐒
+## 🖐 Control de efectos visuales con gestos
 
-  
+<img src="https://img.shields.io/badge/Computer%20Vision-Hand%20Tracking-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/JavaScript-Interactive-yellow?style=for-the-badge&logo=javascript">
+<img src="https://img.shields.io/badge/MediaPipe-Hand%20Detection-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Experimental-purple?style=for-the-badge">
 
-
----
-
-⚡ CONTROL DE PARTÍCULAS CON TUS MANOS
-
-🖐 Interactúa con efectos visuales usando gestos frente a la cámara.
-
-Este proyecto utiliza visión por computadora para detectar la posición de la mano y generar partículas y animaciones interactivas en tiempo real.
-
-💡 Solo necesitas:
-
-✔ cámara
-✔ navegador moderno
-✔ tu mano frente a la cámara
-
+</div>
 
 ---
 
-🚨 ALERTA IMPORTANTE
+# 🚀 PROYECTO
 
-> ⚠ Este proyecto requiere acceso a la cámara.
+🖐 Este proyecto permite **controlar partículas y efectos visuales usando gestos de la mano** frente a la cámara.
 
-
-
-> 🎥 Cuando abras la página debes permitir el acceso a la cámara.
-
-
-
-> 💻 Funciona mejor en Google Chrome o navegadores modernos.
-
-
-
+Utiliza **visión por computadora** para detectar la posición de la mano y generar **efectos interactivos en tiempo real dentro del navegador**.
 
 ---
 
-🌌 REPOSITORIOS
+<div align="center">
 
-🔗 https://github.com/BerMatMods/Prueba-de-gestos
+# 🚨 ALERTA IMPORTANTE
 
+</div>
 
----
-
-🧠 TECNOLOGÍAS UTILIZADAS
-
-Tecnología	Función
-
-HTML5	estructura del proyecto
-CSS3	diseño visual
-JavaScript	lógica interactiva
-MediaPipe Hands	detección de manos
-Three.js	partículas y efectos 3D
-
-
+> ⚠ Debes permitir **acceso a la cámara** para que funcione el sistema  
+> 🎥 Sin cámara el sistema **no detectará las manos**
 
 ---
 
-✨ CARACTERÍSTICAS
+# 📂 REPOSITORIOS
+### ⚡ Proyecto de pruebas
 
-🔥 detección de manos en tiempo real
-🖐 seguimiento de dedos y palma
-🌌 partículas que reaccionan al movimiento
-🎮 interacción sin tocar la pantalla
-⚡ procesamiento en el navegador
-
+https://github.com/BerMatMods/Prueba-de-gestos
 
 ---
 
-🚀 CLONAR EL REPOSITORIO
+# 🧠 TECNOLOGÍAS UTILIZADAS
 
+| Tecnología | Uso |
+|---|---|
+| HTML5 | estructura |
+| CSS3 | diseño |
+| JavaScript | lógica |
+| MediaPipe | detección de manos |
+| Three.js | partículas 3D |
+
+---
+
+# ✨ CARACTERÍSTICAS
+
+🔥 detección de manos en tiempo real 🖐 seguimiento de dedos 🌌 partículas interactivas ⚡ animaciones dinámicas 🎮 interacción con gestos
+
+---
+
+# 🚀 CLONAR EL REPOSITORIO
+
+```bash
 git clone https://github.com/BerMatMods/Prueba-de-gestos.git
 
-Entrar a la carpeta:
+Entrar a la carpeta
 
 cd Prueba-de-gestos
 
@@ -100,7 +84,7 @@ Clonar repositorio
 
 git clone https://github.com/BerMatMods/Prueba-de-gestos.git
 
-Entrar al proyecto
+Entrar a la carpeta
 
 cd Prueba-de-gestos
 
@@ -113,17 +97,17 @@ termux-open index.html
 
 💻 EJECUTAR EN VS CODE
 
-1️⃣ Clonar el repositorio
+Clonar repositorio
 
 git clone https://github.com/BerMatMods/Prueba-de-gestos.git
 
-2️⃣ Abrir la carpeta en VS Code
+Abrir carpeta en VS Code
 
-3️⃣ Ejecutar
+Ejecutar archivo
 
 index.html
 
-o usar la extensión Live Server
+o usar Live Server
 
 
 ---
@@ -133,100 +117,57 @@ o usar la extensión Live Server
 1️⃣ Abre el proyecto en el navegador
 2️⃣ Permite acceso a la cámara
 3️⃣ Coloca tu mano frente a la cámara
-4️⃣ Mueve la palma o los dedos
+4️⃣ Mueve los dedos
 
-✨ Las partículas reaccionarán a tu movimiento
+✨ Las partículas reaccionarán al movimiento de tu mano.
 
 
 ---
 
 🎥 COLABORACIÓN
 
-👤 Creador del proyecto base
+👤 Proyecto original
 
-🎬 BangAtacck
-
-Creador de contenido en TikTok.
+BangAtacck
+Creador de contenido en TikTok
 
 
 ---
 
 👨‍💻 Adaptación
 
-⚡ BerMatMods
-
-Experimentos con visión por computadora y tecnología interactiva.
-
-
----
-
-🌌 POSIBLES APLICACIONES
-
-🎮 videojuegos controlados por gestos
-🎨 arte interactivo
-🤖 interfaces sin contacto
-📚 aprendizaje de visión por computadora
-🎥 efectos visuales para streaming
+BerMatMods
+Experimentos con visión por computadora
 
 
 ---
 
-⭐ APOYA EL PROYECTO
+<div align="center">⭐ APOYA EL PROYECTO
 
-Si te gusta este proyecto:
-
-⭐ Dale Star al repositorio
+</div>⭐ Dale Star al repositorio
 🍴 Haz Fork
 🧠 Contribuye con mejoras
 
 
 ---
 
-⚡ AUTOR
+<div align="center">⚡ AUTOR
 
-💻 /BangAtacck colaboración con BerMatCode 
+BerMatMods
 
-👨‍💻 desarrollo de bots
+💻 desarrollo de bots
 🤖 inteligencia artificial
 🧠 visión por computadora
 
-
+</div>
 ---
 
-🚨 PROYECTO EXPERIMENTAL
+<div align="center">🚀 PROYECTO EXPERIMENTAL
 
-> ⚠ Este proyecto está en fase experimental.
-
-
-
-> 💡 Se pueden agregar nuevas funciones como:
+</div>> ⚠ Este proyecto está en fase experimental
+💡 Pueden agregarse nuevas funciones en el futuro
 
 
-
-✨ más gestos
-✨ más efectos
-✨ interacción avanzada
-
-
----
-
-🌐 CONTRIBUIR
-
-Si deseas contribuir puedes:
-
-1️⃣ hacer fork del repositorio
-2️⃣ crear una nueva función
-3️⃣ enviar pull request
-
-
----
-
-🚀 FUTURAS MEJORAS
-
-🔥 reconocimiento de gestos específicos
-🔥 control de juegos con manos
-🔥 efectos visuales avanzados
-🔥 integración con inteligencia artificial
 
 
 ---
